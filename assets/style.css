@@ -90,6 +90,8 @@ body {
 	font-size: 14px;
 }
 
+  
+
 #gallery {
 	/*	min-height: 100vh; */
 }
@@ -101,8 +103,8 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #BEB45A;
+	color: #ffffff;
+	background-color: #7b7439;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -179,7 +181,7 @@ body {
 }
 
 .service {
-	background-color: white;
+	background-color: #ffffff;
 	max-width: 390px;
 	width: 30%;
 	height: 337px;
@@ -188,6 +190,16 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	z-index: 1;
+}
+
+.service__description {
+    color: #000000;
+	background-color: #ffffff;
+}
+
+#services .service__description h3, p {
+	background-color: #ffffff !important;
+	color: #000000 !important;
 }
 
 #contact {
